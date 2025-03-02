@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4-Day Learning Tracker</title>
-    <style>/* General Styles */
+    <style>
+        /* General Styles */
         body {
             background-color: black;
             color: white;
@@ -28,7 +29,7 @@
         /* Learning Grid */
         .learning-grid {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
         }
@@ -47,6 +48,22 @@
         .day:hover {
             background-color: #444;
         }
+
+        /* Self Profiling Section */
+        .self-profiling {
+            margin-top: 30px;
+        }
+
+        .self-profiling h2 {
+            margin-bottom: 15px;
+        }
+
+        .self-profiling img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
         
         /* Responsive Design */
         @media (max-width: 800px) {
@@ -59,7 +76,7 @@
                 width: 80%;
             }
         }
-        </style>
+    </style>
 </head>
 <body>
     <div class="container">
@@ -67,17 +84,21 @@
         <div class="learning-grid">
             <div class="day">
                 <h2>Day 1</h2>
-                <p>Today, I gained valuable knowledge about how to handle interviews effectively. I learned important strategies for answering questions confidently and articulately. Understanding how to present my skills and experiences in a compelling way will help me make a positive impression. I now feel more prepared to face interviews and showcase my abilities.</p>
+                <p>Today, I gained valuable knowledge about handling interviews effectively. I learned strategies for answering questions confidently and articulately.</p>
             </div>
             <div class="day">
                 <h2>Day 2</h2>
-                <p>Today, I have taken the first step in my journey of self-discovery. I am now able to introspect and gain a deeper understanding of myself. I have identified my strengths and weaknesses, which will help me grow and improve. This newfound awareness is a valuable tool for my personal development.</p>
+                <p>Today, I took the first step in my self-discovery journey, identifying my strengths and weaknesses to aid my growth.</p>
             </div>
             <div class="day">
                 <h2>Day 3</h2>
-                <p>Today, I learned to present myself confidently during a presentation. Proper posture, eye contact, and clear speech enhance effective communication and confidence. Practicing regularly, staying calm, and engaging the audience make presentations impactful. Overcoming nervousness improves overall delivery and professional presence.</p>
+                <p>Today, I learned to present myself confidently. Proper posture, eye contact, and clear speech enhance effective communication.</p>
             </div>
-            
+        </div>
+        <div class="self-profiling">
+            <h2>Self Profiling Sheet</h2>
+            <img src="images/sheet1.jpg" alt="Self Profiling Sheet 1">
+            <img src="images/sheet2.jpg" alt="Self Profiling Sheet 2">
         </div>
     </div>
 </body>
