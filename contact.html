@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Contact Page Styles */
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, black, #1a1a1a);
+    color: white;
+    padding: 5rem 10%;
+}
+
+/* Contact Heading */
+.contact h2 {
+    font-size: 3rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+/* Contact Information */
+.contact-container {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+}
+
+.contact-container p {
+    margin: 1rem 0;
+}
+
+.contact-container i {
+    color: #b74b4b;
+    margin-right: 10px;
+}
+
+/* Links */
+.contact-container a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+    color: #b74b4b;
+}
+
+/* Thank You Message */
+.thank-you {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    color: #ccc;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">HOME</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any queries, feel free to reach out to me through the following options:</p>
+
+        <div class="contact-container">
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:officialrishav7@gmail.com">officialrishav7@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> Contact No: <a href="tel:9258136894">9258136894</a></p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/rishav-singh-negi-333ab52b7" target="_blank">Rishav Singh Negi</a></p>
+            <p><i class="fas fa-code"></i> LeetCode: <a href="https://leetcode.com/u/RISHAV_09/" target="_blank">RISHAV_09</a></p>
+        </div>
+
+        <p class="thank-you">Thank you for visiting my portfolio! If you have any queries, please feel free to contact me using the above information.</p>
+    </section>
+
+</body>
+</html>

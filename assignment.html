@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Day Learning Tracker</title>
+    <style>/* General Styles */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Container */
+        .container {
+            padding: 50px;
+        }
+        
+        /* Heading */
+        h1 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        
+        /* Learning Grid */
+        .learning-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        /* Individual Day Blocks */
+        .day {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 22%;
+            min-width: 200px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        
+        .day:hover {
+            background-color: #444;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 800px) {
+            .learning-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .day {
+                width: 80%;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Tracker of PESE 400</h1>
+        <div class="learning-grid">
+            <div class="day">
+                <h2>Day 1</h2>
+                <p>Today, I gained valuable knowledge about how to handle interviews effectively. I learned important strategies for answering questions confidently and articulately. Understanding how to present my skills and experiences in a compelling way will help me make a positive impression. I now feel more prepared to face interviews and showcase my abilities.</p>
+            </div>
+            <div class="day">
+                <h2>Day 2</h2>
+                <p>Today, I have taken the first step in my journey of self-discovery. I am now able to introspect and gain a deeper understanding of myself. I have identified my strengths and weaknesses, which will help me grow and improve. This newfound awareness is a valuable tool for my personal development.</p>
+            </div>
+            <div class="day">
+                <h2>Day 3</h2>
+                <p>Today, I learned to present myself confidently during a presentation. Proper posture, eye contact, and clear speech enhance effective communication and confidence. Practicing regularly, staying calm, and engaging the audience make presentations impactful. Overcoming nervousness improves overall delivery and professional presence.</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
